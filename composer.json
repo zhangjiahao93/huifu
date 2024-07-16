@@ -1,0 +1,28 @@
+{
+    "name": "zjh/huifu",
+    "autoload": {
+        "psr-4": {
+            "Zhangjiahao93\\Huifu\\": "src/"
+        },
+        "files": [
+            "functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "zhangjiahao"
+        }
+    ],
+    "require": {
+        "hyperf/validation": "^3.1",
+        "hyperf/guzzle": "~3.1.0"
+    },
+    "config": {
+        "repositories": {
+            "packagist": {
+                "type": "composer",
+                "url": "https://mirrors.aliyun.com/composer/"
+            }
+        }
+    }
+}
