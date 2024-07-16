@@ -1,5 +1,5 @@
 {
-    "name": "zjh/huifu",
+    "name": "zhangjiahao93/huifu",
     "autoload": {
         "psr-4": {
             "Zhangjiahao93\\Huifu\\": "src/"
