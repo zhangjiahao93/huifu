@@ -8,7 +8,7 @@ trait Settle
     public function V2MerchantSettleConfig($allInput)
     {
         $json = $this->createBody(array_merge([
-            'req_seq_id' => genReqSeqID(),
+            'req_seq_id' => "",
             'req_date' => date("Ymd"),
             'huifu_id' => $this->sys_id,
         ], $allInput));
@@ -24,7 +24,7 @@ trait Settle
     public function V2MerchantSettleModify($allInput)
     {
         $json = $this->createBody(array_merge([
-            'req_seq_id' => genReqSeqID(),
+            'req_seq_id' => "",
             'req_date' => date("Ymd"),
             'huifu_id' => $this->sys_id,
         ], $allInput));
